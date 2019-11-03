@@ -1,0 +1,334 @@
+.floors {
+    min-height: 350px;
+}
+
+.floors header {
+    clear: both;
+    height: 56px;
+    padding: 24px 8px 8px 8px;
+    border-bottom: 1px solid #dedede;
+}
+
+.floors h5,
+#orddetail-dialog h5 {
+    font-weight: bold;
+    display: inline;
+}
+
+.floors .floor-logo {
+    width: 24px;
+    height: 24px;
+    display: inline;
+    margin: 0 3px 6px 3px;
+}
+
+#filter-tool {
+	padding: 16px 0;
+	/*border-bottom: 1px solid rgb(222,222,222);*/
+}
+
+#filter-tool label {
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+#filter-tool input[type="date"] {
+	width: 152px;
+	height: 38px;
+}
+
+#filter-tool input.text-sm {
+	width: 132px;
+}
+
+#book-list {
+	padding: 0 18px;
+}
+
+#book-list h3 {
+	text-align: center;
+	padding: 100px;
+}
+
+#user-menu {
+	width: 190px;
+	float: left;
+}
+
+#user-menu #user-info h6 {
+	padding: 14px;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+#user-menu .list-group {
+	margin-top: 16px;
+}
+
+#user-menu .list-group .title {
+	font-weight: bold;
+	text-align: center;
+}
+
+#user-menu .list-group .title:hover {
+	background-color: rgb(255, 255, 255) !important;
+}
+
+#user-menu .list-group .active {
+	background-color: rgb(227, 228, 229);
+}
+
+#user-menu .list-group .list-group-item {
+	color: rgb(55, 58, 60);
+	border-color: rgb(222, 222, 222);
+}
+
+#user-menu .list-group .list-group-item:hover {
+	text-decoration: none;
+	background-color: rgb(227, 228, 229);
+}
+
+#user-menu .label-pill {
+	font-weight: bold;
+	color: #ffffff;
+	background-color: rgb(129, 138, 145);
+	border-radius: 12px;
+	width: 36px;
+	text-align: center;
+}
+
+#user-main {
+	width: 900px;
+	float: right;
+}
+
+/* 已完成订单列表 */
+
+#sold-list,
+#pastorder-list {
+	background-color: #fff;
+	border: 1px solid rgb(221, 221, 221);
+	min-height: 470px;
+	border-radius: 0.25rem;
+}
+
+/* 未完成订单Tab页 */
+
+#order-tabs {
+	margin-top: 16px;
+}
+    
+#ordTabContent {
+	background-color: #fff;
+	border: 1px solid rgb(221, 221, 221);
+	border-top: none;
+	border-bottom-left-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+}
+
+#order-tabs .label-pill {
+	font-weight: bold;
+	color: #fff;
+	background-color: rgb(129, 138, 145);
+	border-radius: 12px;
+	width: 36px;
+	text-align: center;
+	margin-left: 12px;
+	margin-top: 3px;
+	font-size: 0.9rem;
+}
+
+#order-tabs .nav-link {
+	color: rgb(55, 58, 60);
+}
+
+#order-tabs .nav-link.active,
+#order-tabs .nav-link:hover {
+	font-weight: bold;
+}
+
+#order-tabs .ordTab-msg {
+	text-align: center;
+	padding-top: 100px;
+	margin: 0;
+}
+
+#order-tabs .tab-pane {
+	min-height: 531px;
+}
+
+.order-detail {
+	padding: 16px 8px;
+	border-top: 2px dashed rgb(222, 222, 222);
+	height: 150px;
+}
+
+.order-detail:first-child {
+	border-top: none;
+}
+
+.order-btngroup {
+	position: relative;
+}
+
+.order-btngroup div {
+	position: absolute;
+	top: -16px;
+	left: -10px;
+	width: 100%;
+	text-align: center;
+}
+
+/* 评价列表 */
+
+#comment-list {
+	background-color: #fff;
+	border: 1px solid rgb(221, 221, 221);
+	min-height: 525px;
+	border-radius: 0.25rem;
+	margin-top: 16px;
+}
+
+#comment-list h4 {
+	text-align: center;
+	padding-top: 100px;
+	margin: 0;
+}
+
+.comment-detail {
+	padding: 16px 8px;
+	border-top: 2px dashed rgb(222, 222, 222);
+	height: 120px;
+}
+
+.comment-detail:first-child {
+	border-top: none;
+}
+
+/* 页码控件 */
+
+.page-control {
+	padding-top: 12px;
+	display: block;
+	float: none;
+	text-align: center;
+	clear: both;
+}
+
+/* 个人中心表单 */
+
+#sell-form {
+	margin: 12px;	
+}
+
+#sell-form label {
+	font-weight: bold;
+	margin-top: 7px;
+	text-align: right;
+}
+
+#sell-form .col-md-12 {
+	padding: 8px 0 6px 0;
+}
+
+#sell-form textarea {
+	text-align: left;
+	resize: none;
+	height: 120px;
+}
+
+#myadr-list .card p {
+	height: 44px;	
+}
+
+#myadr-list .card {
+	margin: 0 1% 16px 1%;
+	width: 48%;
+	height: 180px;	
+}
+
+#myadr-list h3 {
+	text-align: center;
+	margin: 60px;
+}
+
+#mybook-list .card {
+	margin: 0 1% 16px 1%;
+	width: 48%;
+	height: 208px;
+}
+
+#mybook-list .card img {
+	width: 117.5px;
+	height: 166px;
+	float: left;
+	margin-right: 16px;
+}
+
+#mybook-list .card p {
+	height: 72px;
+}
+
+#mybook-list .card #book-name {
+	width: 162px;
+	display: inline-block;
+}
+
+#sold-list h3,
+#mybook-list h3 {
+	text-align: center;
+	margin: 120px 0;
+}
+
+#comment-form label img {
+	height: 24px;
+	margin: 0 12px;
+}
+
+#comment-form textarea {
+	resize: none;
+	height: 100px;
+}
+
+.comment-label {
+	display: block;
+}
+
+/* 弹框格式 */
+
+#ordcomment-dialog .modal-body label,
+#delivery-dialog .modal-body label,
+#add-dialog .modal-body label,
+#edit-dialog .modal-body label {
+	padding: 5px;
+	font-weight: bold;
+}
+
+.modal-body p {
+	text-indent: 2em;
+	margin-bottom: 0;
+}
+
+.modal-footer {
+	text-align: right;
+}
+
+.modal-footer-sm {
+	text-align: center !important;
+}
+
+.form-inline-dropdown {
+	height: 38px;
+	width: 201px !important;
+}
+
+/* 图片上传 */
+
+input[type='file'] {
+	height: 38px;
+	width: 201px !important;
+}
+
+#bimage_edit {
+	width: 131px;
+}

@@ -1,0 +1,121 @@
+* {
+    font-family: "Microsoft YaHei UI";
+}
+
+body {
+    background: url("../../login/images/regbg.jpg") center -128px;
+}
+
+#agree-content {
+    border: none;
+    width: 100%;
+    height: 28rem;
+    resize: none;
+}
+
+.form-reg {
+    max-width: 330px;
+    margin: 6.5% auto 0 auto;
+}
+
+.form-reg .form-reg-heading {
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.form-reg .checkbox {
+    margin-bottom: 10px;
+    padding: 0 2px;
+    color: #ffffff;
+}
+
+.form-reg .checkbox a {
+    color: #ffffff;
+}
+
+.form-reg .checkbox a.toLogin {
+    float: right;
+}
+
+.form-reg .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+
+    opacity: 0.85;
+    -moz-opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+
+.form-reg #reg {
+    opacity: 0.9;
+    -moz-opacity: 0.9;
+    filter: alpha(opacity=90);
+
+    border-radius: 0.8rem;
+}
+
+.form-reg input[type="email"] {
+    margin-bottom: -1px;
+    -webkit-border-radius: 0.8rem 0.8rem 0 0;
+    -moz-border-radius: 0.8rem 0.8rem 0 0;
+    border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.form-reg input[type="password"],
+.form-reg input[type="number"],
+.form-reg input[type="tel"],
+.form-reg input[type="text"],
+.form-reg select {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+.form-reg select {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 6px !important;
+}
+
+.form-reg select#dept1,
+.form-reg select#dept2 {
+    float: left;
+    width: 33.3%;
+}
+
+.form-reg select#dept3 {
+    float: right;
+    width: 33.4%;
+}
+
+.form-reg input#hometown {
+    -webkit-border-radius: 0 0 0.8rem 0.8rem;
+    -moz-border-radius: 0 0 0.8rem 0.8rem;
+    border-radius: 0 0 0.8rem 0.8rem;
+    margin-bottom: 10px;
+}
+
+.back {
+    float: left;
+    position: fixed;
+    top: 1.5rem;
+    left: 2rem;
+}
+
+.back img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+div.log-footer {
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    padding: 12px;
+}

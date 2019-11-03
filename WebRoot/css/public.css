@@ -1,0 +1,364 @@
+/*
+ * 全局样式表
+ * CreateTime: 2017-1-5
+ * LastUpdate: 2017-1-17
+ * Author: ShenHongtai
+ */
+
+/* 整体结构通用样式 */
+
+* {
+    font-family: "Microsoft YaHei UI";
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+body .container {
+    min-width: 1140px;
+}
+
+#container-index {
+    min-width: 1140px;
+    position: relative;
+    top: -54px;
+}
+
+/* 导航栏样式 */
+
+body>nav {
+    background-color: #e3e4e5;
+}
+
+.nav-left {
+    margin-left: 210px;
+}
+
+.nav-left img {
+    width: 18px;
+    height: 18px;
+    margin: 0 3px 2px 3px;
+}
+
+.nav-link-point {
+    font-weight: bold;
+    color: #136cd4 !important;
+}
+
+.dropdown-menu {
+    margin-top: 8px;
+    margin-left: -24px;
+}
+
+/* 页头样式 */
+
+.page-header {
+    width: 100%;
+    height: 116px;
+    border-bottom: 1px solid #dedede;
+}
+
+.logo {
+    position: relative;
+    z-index: 2;
+    left: 0px;
+    top: -55px;
+    width: 190px;
+    height: 170px;
+    box-shadow: 0px -12px 10px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    float: left;
+}
+
+.logo img {
+	margin: 5px;
+}
+
+.search-box {
+    width: 540px;
+    float: left;
+    margin-top: 26px;
+    margin-left: 180px;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.menu {
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+    background: none;
+}
+
+.menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 42px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.menu li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #136cd4;
+}
+
+/* 文章通用样式 */
+
+.article-aside {
+	float: left;
+}
+
+.article {
+	padding: 0 12px;
+	width: 920px;
+	float: right;	
+}
+
+.article-header {
+	height: 54px;
+	padding: 12px 9px 3px 9px;
+}
+
+.article-title {
+	font-weight: bold;
+	font-size: 24px;
+	display: inline-block;
+	position: relative;
+	bottom: 0px;
+}
+
+.article-title-en {
+	color: #888;
+	font-size: 18px;
+	font-style: italic;
+	display: inline-block;
+	position: relative;
+	bottom: -2px;
+}
+
+.article .article-list {
+	padding: 0 18px 0 24px;
+}
+
+.article .article-list li {
+	list-style-type: none;
+	border-bottom: 1px dashed #373a3c;
+	padding: 6px;
+}
+
+.article .article-list li.last-li {
+	border-bottom: none;
+}
+
+.article .article-list li span {
+	float: right;
+}
+
+.article .article-list a {
+	color: #373a3c;
+	text-decoration: none;
+}
+
+.page-control {
+	display: inline-block;
+	float: right;
+}
+
+.page-control button {
+	border-radius: 50%;
+}
+
+.page-control select {
+	display: inline;
+	width: 84px;
+	position: relative;
+	bottom: -3px;
+	margin-right: 24px;
+}
+
+.pagenum {
+	font-weight: bold;
+	font-size: 16px;
+	display: inline-block;
+	position: relative;
+	bottom: -2px;
+}
+
+/* 文章内容通用样式 */
+
+.article-text {
+	margin: 6px 0;
+	padding: 6px;
+	min-height: 358px;
+}
+
+.article-text-title {
+	font-size: 24px;
+	text-align: center;
+}
+
+.article-text-info {
+	font-size: 16px;
+	text-align: center;
+	color: #888;
+}
+
+.article-text-content {
+	padding: 12px;
+}
+
+.reply {
+	background-color: #e3e4e5;
+	margin: 12px 0;
+	padding: 12px;
+}
+
+.reply p {
+	text-indent: 2em;
+	margin: 3px;
+}
+
+.reply span {
+	position: relative;
+	bottom: -3px;
+}
+
+/* 模态框 */
+
+.modal-footer {
+	text-align: center;
+}
+
+/* 图书卡片v2 */
+
+.box{
+    position: relative;
+    perspective: 1000px;
+    -webkit-perspective: 1000px;
+    width: 190px;
+    height: 266px;
+    float: left;
+    margin: 14px 13px;
+}
+
+.box .box-img{
+    transform: rotateY(0);
+    transition: all 0.50s ease-in-out 0.05s; /* ease-in-out 慢速开始和结束 */
+}
+
+.box:hover .box-img{
+    transform: rotateY(-90deg);
+}
+
+.box .box-img img{
+    border-radius: 12px;
+    width: 190px;
+    height: 266px;
+}
+
+.box .box-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 20px;
+    text-align: center;
+    background: rgba(50, 50, 50, 0.72);
+    border-radius: 12px;
+    transform: rotateY(90deg);
+    transition: all 0.50s ease-in-out 0.05s;
+}
+
+.box:hover .box-content{
+    transform: rotateY(0);
+}
+
+.box table {
+	width: 100%;
+}
+
+.box .title{
+    font-size: 20px;
+    color: #fff;
+}
+
+.box .des-tr {
+	height: 112px;
+	vertical-align: middle;
+}
+
+.box .description{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.box .title:after,
+.box .social-links:before{
+    content: "";
+    width: 90%;
+    display: block;
+    border-bottom: 1px solid #fff;
+    margin: 15px auto;
+}
+
+.box .social-links a {
+    font-size: 20px;
+    color: #a6a6a6;
+    margin: 0 12px;
+}
+
+.box .social-links a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media only screen and (max-width: 990px) {
+    .box{  margin-bottom:20px; }
+}
+
+@media only screen and (max-width: 479px) {
+    .box .box-content{ padding: 20px; }
+}
+
+/* 页脚样式 */
+
+footer {
+    padding-top: 24px;
+    background-color: #e3e4e5;
+}
+
+footer ul {
+    padding-left: 0;
+    padding-right: 64px;
+    list-style-type: none;
+    float: left;
+    font-size: 0.95rem;
+}
+
+footer ul li {
+    margin-bottom: 12px;
+}
+
+footer ul li.footer-title {
+    font-weight: bold;
+}
+
+footer ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer ul.site-info {
+    text-align: right;
+    padding-right: 0;
+}

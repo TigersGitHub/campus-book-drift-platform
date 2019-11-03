@@ -1,0 +1,248 @@
+/* 全局 */
+
+.container,
+.container-fluid {
+	margin-top: 53px;
+	min-width: 1140px;
+}
+
+/* 导航栏 */
+
+.navbar-brand {
+	padding-top: 2px;
+}
+
+.pull-right .navbar-brand {
+	margin: 0;
+	padding: 2px 5px;
+}
+
+/* 左边栏 */
+
+.sidebar {
+	position: fixed;
+	top: 53px;
+	left: 0px;
+	bottom: 0px;
+	display: block;
+	background-color: rgb(80, 80, 80);
+	padding: 0;
+	width: 210px;
+}
+
+.nav-sidebar li.group-li {	
+	color: #ffffff;
+	font-size: 1.2rem;
+	padding: 12px 24px;
+}
+
+.nav-second {
+	list-style-type: none;
+}
+
+.nav-second li {
+	padding: 6px 0;
+}
+
+.nav-second li:hover,
+.nav-second li.active {
+	background: rgb(246, 246, 246);	
+}
+
+.group-li a,
+.nav-second li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.nav-second li a {
+	padding: 8px 34px 11px 12px;
+}
+
+.nav-second li:hover a,
+.nav-second li.active a {
+	color: rgb(55, 58, 60);
+}
+
+.nav-second li a img {
+	margin-right: 6px;
+	margin-bottom: 2px;
+}
+
+/* 内部框架 */
+
+.main {
+	display: block;
+	margin-top: 68px;
+	margin-left: 210px;
+}
+
+.main iframe {
+	width: 100%;
+	border: none;
+}
+
+table {
+	margin-bottom: 0 !important;	
+}
+
+table th,
+table td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.col-control {
+	min-width: 168px;
+}
+
+td.col-control {
+	padding-top: 6px !important;
+	padding-bottom: 6px !important;
+}
+
+.col-control .btn {
+	margin: 0 2px;
+}
+
+.card-block .input-group {
+	width: 33%;
+}
+
+#add-dialog .modal-body label,
+#edit-dialog .modal-body label {
+	padding: 5px;
+	font-weight: bold;
+}
+
+.modal-body p {
+	text-indent: 2em;
+	margin-bottom: 0;
+}
+
+.modal-footer {
+	text-align: right;
+}
+
+.modal-footer-sm {
+	text-align: center !important;
+}
+
+/* 通讯录 */
+
+.form-inline-dropdown {
+	width: 201px !important;
+}
+
+#form-emp-detail label,
+#form-emp-edit label {
+	font-weight: bold;
+}
+
+#form-emp-detail legend,
+#form-emp-edit legend {
+	width: 50%;
+	float: left;
+}
+
+#form-emp-detail hr,
+#form-emp-edit hr {
+	clear: both;
+}
+
+#form-emp-edit #empid,
+#form-emp-edit input,
+#form-emp-edit select,
+#form-emp-edit textarea {
+	width: 320px;
+}
+
+#form-emp-edit textarea {
+	resize: none;
+	height: 80px;
+}
+
+/* 字典编辑界面 */
+
+#level,
+#parent {
+	width: 201px;
+}
+
+ol li {
+	display: inline;
+}
+
+ol li::after { 
+	content: "/";
+	padding: 0 8px;
+}
+
+ol li.active::after {
+	content: "" !important;
+	padding: 0 !important;
+}
+
+#form-dctadd label {
+	margin-bottom: 0px;
+	margin-top: 3px;
+	font-weight: bold;
+}
+
+.form-inline {
+	display: inline;
+}
+
+/* 筛选栏置顶 */
+
+.list-tool {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.list-content {
+	margin-top: 92px;
+}
+
+/* 页码控件 */
+
+.page-control {
+	padding-top: 12px;
+	display: block;
+	float: none;
+	text-align: center;
+}
+
+/* 图片上传 */
+
+input[type='file'] {
+	height: 38px;
+	width: 201px !important;
+}
+
+#bimage_edit {
+	width: 131px;
+}
+
+/* 表格超宽隐藏 */
+
+table.overhid {  
+    width: 100%;  
+    table-layout: fixed;
+}  
+
+table.overhid td {  
+    width: 100%;  
+    word-break: keep-all;	/* 不换行 */  
+    white-space: nowrap;	/* 不换行 */  
+    overflow: hidden;		/* 内容超出宽度时隐藏超出部分的内容 */  
+    text-overflow: ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用*/  
+}  
+
+/* 查询页面筛选输入框 */
+.view-searchbox {
+	width: 152px !important;
+	height: 38px;
+}

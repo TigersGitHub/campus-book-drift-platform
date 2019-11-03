@@ -1,0 +1,51 @@
+.floors {
+    min-height: 350px;
+}
+
+.floors header {
+    clear: both;
+    height: 56px;
+    padding: 24px 8px 8px 8px;
+    border-bottom: 1px solid #dedede;
+}
+
+.floors h5 {
+    font-weight: bold;
+    display: inline;
+}
+
+.floors .floor-logo {
+    width: 24px;
+    height: 24px;
+    display: inline;
+    margin: 0 3px 6px 3px;
+}
+
+#filter-tool {
+	padding: 16px;
+	/*border-bottom: 1px solid rgb(222,222,222);*/
+}
+
+#filter-tool label {
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+#book-list {
+	padding: 0 15px;
+}
+
+#book-list h3 {
+	text-align: center;
+	padding: 100px;
+}
+
+/* Ò³Âë¿Ø¼þ */
+
+.page-control {
+	padding-top: 12px;
+	display: block;
+	float: none;
+	text-align: center;
+	clear: both;
+}

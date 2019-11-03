@@ -1,0 +1,66 @@
+.input-group-addon {
+	width: 15% !important;
+	background-color: #fff;
+	float: left;
+	border-bottom-left-radius: 0;
+}
+
+#news-mgr #article-title-edit,
+#news-mgr #article-title {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	width: 85%;
+}
+     	
+#article-content-edit,
+#article-content {
+    width: 100%;
+    height: 12rem;
+    resize: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: none;
+}
+
+.article-advice {
+	border: none;
+	padding: 6px 12px;
+}
+
+#article-title-edit.article-advice {
+    width: 100%;
+}
+
+.article-reply {
+    width: 100%;
+    height: 6rem !important;
+    resize: none;	
+}
+
+#form-author *,
+#form-author-edit * {
+	font-weight: normal !important;
+}
+
+#form-author label,
+#form-author-edit label {
+	margin-bottom: 0;
+	margin-top: 8px;
+}
+
+table {  
+    width: 100%;  
+    table-layout: fixed;
+}  
+
+td {  
+    width: 100%;  
+    word-break: keep-all;	/* 不换行 */  
+    white-space: nowrap;	/* 不换行 */  
+    overflow: hidden;		/* 内容超出宽度时隐藏超出部分的内容 */  
+    text-overflow: ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用*/  
+}  
+
+input[type="date"] {
+	height: 38px !important;
+}

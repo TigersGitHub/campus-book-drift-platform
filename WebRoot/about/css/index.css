@@ -1,0 +1,45 @@
+.article-aside {
+	position: relative;
+}
+    
+#about-list {
+	position: absolute;
+	right: 0;
+	top: 72px;
+	width: 180px;
+}
+    	
+#about-list li {
+	float: right;
+	list-style-type: none;
+	margin-bottom: 18px; 
+}
+
+#about-list li a {
+	background-color: rgba(255, 255, 255, 0.4); 
+	color: #fff;
+	padding: 8px 22px;
+	text-decoration: none;
+	transition: padding-right 0.33s;
+}
+    	
+#about-list li a:hover {
+	padding-right: 36px;
+	transition: padding-right 0.33s;
+}
+
+#about-list li a.active {
+	padding-right: 36px;
+}
+
+.article pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	padding: 6px 0px 0px 24px;
+	font-family: "Microsoft YaHei";
+	font-size: 1rem;
+}
+
+.article section.return {
+	text-align: center;
+}
